@@ -1,51 +1,54 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Framework Test Page</title>
+    <title>Portfolio Page</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
 </head>
 <body>
-<div class="grid-phones"></div>
-<div class="grid-tablets"></div>
-<div class="grid-laptops">
+<div class="container">
     <div class="row">
-        <div class="col-6">
-            <img src="http://placehold.it/100">
+        <div class="col-md-6">
+            <img src="http://placehold.it/100" alt="logo" class="img-responsive title-logo">
         </div>
-        <div class="col-6" id="text-align-right">
-            <h1>ANKIT JAISWAL</h1>
-
-            <p>FRONT-END NINJA</p>
+        <div class="col-md-6 text-right text-uppercase">
+            <h1 class="text-thin title-super">ankit jaiswal</h1>
+            <h4>FRONT-END NINJA</h4>
         </div>
     </div>
     <div class="row">
-        <div class="col-12">
-            <img src="http://placehold.it/960x350" id="img-center">
+        <div class="col-md-12">
+            <hr>
         </div>
     </div>
     <div class="row">
-        <div class="col-4">
-            <h2>Featured Work</h2>
+        <div class="col-md-12">
+            <img src="http://placehold.it/1140x350" alt="Main portfolio image" class="img-responsive">
         </div>
     </div>
     <div class="row">
-        <div class="col-4">
-            <img src="http://placehold.it/300" id="img-center">
-
-            <h3 id="text-align-center">Project 1</h3>
+        <div class="col-md-4">
+            <h2 class="text-muted">Featured Work</h2>
         </div>
-        <div class="col-4">
-            <img src="http://placehold.it/300" id="img-center">
-
-            <h3 id="text-align-center">Project 2</h3>
+    </div>
+    <div class="row text-center">
+        <div class="col-md-4">
+            <img src="http://placehold.it/300" alt="project-1 image" class="img-responsive">
+            <h3>Project 1</h3>
+            <p>https://url/to/project/1</p>
         </div>
-        <div class="col-4">
-            <img src="http://placehold.it/300" id="img-center">
-
-            <h3 id="text-align-center">Project 3</h3>
+        <div class="col-md-4">
+            <img src="http://placehold.it/300" alt="project-2 image" class="img-responsive">
+            <h3>Project 2</h3>
+            <p>https://url/to/project/2</p>
+        </div>
+        <div class="col-md-4">
+            <img src="http://placehold.it/300" alt="project-3 image" class="img-responsive">
+            <h3>Project 3</h3>
+            <p>https://url/to/project/3</p>
         </div>
     </div>
 </div>
