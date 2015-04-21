@@ -1,8 +1,12 @@
 {
-	"name": "portfolio",
-	"version": "0.1.0",
-	"devDependencies": {
-		"grunt": "~0.4.1",
-		"grunt-imageoptim": "^1.4.1"
-	}
+  "name": "portfolio",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-imageoptim": "^1.4.1",
+    "grunt-mkdir": "^0.1.2",
+    "grunt-responsive-images": "^0.1.6"
+  }
 }
